@@ -42,15 +42,3 @@ chatgpt_chats_list_first_node = (
 
 chatgpt_chat_url = 'https://chat.openai.com/chat'
 
-# Set the path to the ChromeDriver executable
-chromedriver_path = "/path/to/chromedriver"
-
-# Set ChromeDriver options
-chrome_options = ChromeOptions()
-chrome_options.add_argument("--disable-dev-shm-usage")
-chrome_options.add_argument("--no-sandbox")
-chrome_options.add_argument("--disable-gpu")
-chrome_options.add_argument("--disable-extensions")
-
-# Create a new instance of Chrome driver
-driver = Chrome(executable_path=chromedriver_path, options=chrome_options)
