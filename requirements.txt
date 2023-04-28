@@ -1,2 +1,3 @@
 pychatgpt
 selenium
+PyVirtualDisplay
